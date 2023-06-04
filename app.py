@@ -44,7 +44,7 @@ if selected == 'Home':
     """, unsafe_allow_html=True)
     
     st.markdown('<p class="big-font1"> WELCOME TO THE WINE QUALITY PREDICTION SYSTEM </p>',unsafe_allow_html=True)
-    file_=open("wine1.png","rb")
+    file_=open("wine3.png","rb")
     contents=file_.read()
     data_url=base64.b64encode(contents).decode("utf-8")
     file_.close()
@@ -53,7 +53,7 @@ if selected == 'Home':
     unsafe_allow_html=True)
 
     st.markdown(
-        f'<img src="data:image/gif;base64,{data_url}" width="750" length="500" image-align="center"  alt="wine1">',
+        f'<img src="data:image/gif;base64,{data_url}" width="750" length="500" image-align="center"  alt="wine3">',
         unsafe_allow_html=True, )
     
 
